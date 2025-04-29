@@ -61,7 +61,7 @@ nav {
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
-    color:#025881;
+
     
       
     display: flex;
@@ -70,6 +70,10 @@ nav {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.menu > li {
+    color:#025881;
 }
 
 
@@ -135,6 +139,7 @@ main {
     margin: -1px;
     margin-top: 20px;
    
+   
     
 }
 
@@ -143,6 +148,7 @@ main {
 .menu-imagens > figure > img {
     width: 100%;
     border-radius: 8px;
+    
 
 
 }

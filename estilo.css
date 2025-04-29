@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-
-
 
 * {
     margin: 0;
@@ -14,10 +9,8 @@
 }
 
 body {
-
     background-color: #F8F4F1;
     color:#025881;
-    
 }
 
 html {
@@ -30,8 +23,7 @@ html, body {
     overflow: hidden;
 }
 
-
-a{ 
+a { 
     text-decoration: none;
 }
 
@@ -43,7 +35,6 @@ nav {
     max-width: 1000px;
     margin: 0;
     padding: 24px 20px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -51,20 +42,15 @@ nav {
 }
 
 .logo img {
-   width: 200px;
-   height: auto;
+    width: 200px;
+    height: auto;
 }
 
 .menu {
-
-   
     font-family: "Cal Sans", sans-serif;
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
-
-    
-      
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -74,22 +60,16 @@ nav {
 }
 
 a {
-        background-color:  #E85C1E; 
-        color: #025881; /* cor da letra do menu */
-        padding: 10px;
-        text-decoration: none;
-        border-radius: 20px;
-
-    
+    background-color:  #E85C1E; 
+    color: #025881; /* cor da letra do menu */
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
 }
 
 .menu a:hover {  /* sombra ao passar o mouse no menu */
-    
     color: #f7803c;
 }
-
-
-
 
 h1 {    /* mudo a cor, tamanho, fonte da minha primeira frase*/
     text-align: center;
@@ -107,11 +87,9 @@ h2 {  /* mudo a cor, tamanho, fonte da minha segunda frase*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 80px;
-    
 }
 
 hr {
-
     margin: 20px;
 }
 
@@ -120,30 +98,21 @@ main {
     flex-direction: column ;
 }
 
-
 .imagens {
-    
     background: #1f7dac;
-    
     width:100%; 
     height: 60vh;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
-
     padding: 0px 20px; 
     margin-right: 100px;
-   
-   
-    
 }
 
 .conteudo {
     display: flex;
     flex-direction: column;
-   
 }
 
 .menu-imagens {
@@ -152,19 +121,11 @@ main {
     column-gap: 0px;
     margin: -1px;
     margin-top: 20px;
-   
-   
-    
 }
-
-
 
 .menu-imagens > figure > img {
     width: 100%;
     border-radius: 8px;
-    
-
-
 }
 
 footer {
@@ -173,44 +134,50 @@ footer {
     background-color: #F8F4F1;
     padding: 20px;
     margin: 10px;
-   
-    
 }
 
+/* ----------------------- */
+/* 🔽 RESPONSIVIDADE 🔽 */
 @media (max-width: 768px) {
     .imagens {
-      flex-direction: column;
-      align-items: center;
-      height: auto;
-      padding: 10px;
-      margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-right: 0;
     }
-  
+
     .menu-imagens {
-      max-width: 100%;
-      column-count: 2; /* reduz de 6 para 2 colunas no celular */
-      column-gap: 10px;
-      margin-top: 10px;
+        max-width: 100%;
+        column-count: 2; /* reduz de 6 para 2 colunas em telas pequenas */
+        column-gap: 10px;
+        margin-top: 10px;
     }
-  
+
+    .menu-imagens > figure {
+        break-inside: avoid;
+        margin-bottom: 10px;
+    }
+
     .menu-imagens > figure > img {
-      width: 100%;
-      border-radius: 8px;
+        width: 100%;
+        border-radius: 8px;
+        display: block;
     }
-  
+
     h1 {
-      font-size: 28px;
+        font-size: 28px;
     }
-  
+
     h2 {
-      font-size: 40px;
-      margin-top: 40px;
+        font-size: 40px;
+        margin-top: 40px;
     }
-  
+
     footer {
-      font-size: 14px;
-      padding: 15px;
+        font-size: 14px;
+        padding: 15px;
     }
-  }
-  
+}
+
   

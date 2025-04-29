@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
@@ -107,7 +106,7 @@ main {
     
         background: #1f7dac;
         
-        width: 100%; 
+        width:100%; 
         height: 60vh;
     
         display: flex;
@@ -115,8 +114,9 @@ main {
         justify-content: space-between;
         gap: 10px;
     
-        padding: 0px 2rem;
-        margin: 0; 
+        padding: 0px 20px; 
+        margin-right: 100px;
+        
         
 }
 
@@ -128,12 +128,15 @@ main {
 
 .menu-imagens {
     max-width: 45%;
-    column-count: 5;
-    column-gap: 10px;
+    column-count: 6;
+    column-gap: 0px;
     margin: -1px;
     margin-top: 20px;
+    margin-left: -100px;
     
 }
+
+
 
 .menu-imagens > figure > img {
     width: 100%;

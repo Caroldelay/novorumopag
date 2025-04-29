@@ -188,33 +188,29 @@ footer {
   
     .menu-imagens {
       max-width: 100%;
-      column-count: 2;
+      column-count: 2; /* reduz de 6 para 2 colunas no celular */
       column-gap: 10px;
-      margin: 10px auto;
+      margin-top: 10px;
     }
   
     .menu-imagens > figure > img {
       width: 100%;
-    }
-  
-    .menu {
-      flex-direction: column;
-      gap: 20px;
-      position: static;
-      transform: none;
-    }
-  
-    h2 {
-      font-size: 48px;
+      border-radius: 8px;
     }
   
     h1 {
-      font-size: 32px;
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 40px;
+      margin-top: 40px;
     }
   
     footer {
       font-size: 14px;
-      padding: 20px;
+      padding: 15px;
     }
   }
+  
   

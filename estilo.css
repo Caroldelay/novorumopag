@@ -17,6 +17,7 @@ body {
 
     background-color: #F8F4F1;
     color:#025881;
+    
 }
 
 html {
@@ -175,3 +176,45 @@ footer {
    
     
 }
+
+@media (max-width: 768px) {
+    .imagens {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 10px;
+      margin-right: 0;
+    }
+  
+    .menu-imagens {
+      max-width: 100%;
+      column-count: 2;
+      column-gap: 10px;
+      margin: 10px auto;
+    }
+  
+    .menu-imagens > figure > img {
+      width: 100%;
+    }
+  
+    .menu {
+      flex-direction: column;
+      gap: 20px;
+      position: static;
+      transform: none;
+    }
+  
+    h2 {
+      font-size: 48px;
+    }
+  
+    h1 {
+      font-size: 32px;
+    }
+  
+    footer {
+      font-size: 14px;
+      padding: 20px;
+    }
+  }
+  

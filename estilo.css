@@ -110,6 +110,14 @@ h2 {  /* mudo a cor, tamanho, fonte da minha segunda frase*/
     
 }
 
+.icon {
+    font-size: 0.8em; /* Reduz o tamanho do ícone para 80% do tamanho padrão */
+    vertical-align: middle; /* Alinha verticalmente o ícone com o texto */
+    margin-right: 0.3em; /* Espaço entre o ícone e o texto */
+  }
+  
+  
+
 hr {
 
     margin: 20px;
